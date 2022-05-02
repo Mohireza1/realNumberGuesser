@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -15,7 +15,7 @@ input::-webkit-inner-spin-button {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Press Start 2P", sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 html {
@@ -104,7 +104,7 @@ label {
   border: 0.7rem solid var(--txt-clr);
   max-width: 300px;
 }
-.guessButton {
+button {
   padding: 2rem 1rem;
   font-size: 2rem;
   background-color: var(--txt-clr);
@@ -113,9 +113,12 @@ label {
   cursor: pointer;
   margin-block-end: 3rem;
 }
-.guessButton:hover {
+button:hover {
   background-color: var(--bg-clr);
   color: var(--txt-clr);
+}
+.again {
+  display: none;
 }
 .scores {
   display: grid;
